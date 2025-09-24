@@ -1,0 +1,49 @@
+2025-09-24 14:02:31,952 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 14:02:32,316 - fixtures.browser - ERROR - 浏览器启动失败: BrowserType.launch() got an unexpected keyword argument 'viewport'
+2025-09-24 14:02:32,389 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 14:02:32,389 - fixtures.browser - ERROR - 浏览器启动失败: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2025-09-24 14:02:32,397 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 14:02:32,397 - fixtures.browser - ERROR - 浏览器启动失败: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2025-09-24 14:04:37,968 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 14:04:40,749 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 14:04:40,755 - tests.test_douyin_upload - INFO - 测试打开抖音创作平台
+2025-09-24 14:04:40,755 - pages.base_page - INFO - 导航到: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 14:04:47,919 - conftest - ERROR - 截图失败: Page.screenshot: Target page, context or browser has been closed
+2025-09-24 14:04:48,364 - fixtures.browser - INFO - 浏览器已关闭
+2025-09-24 14:04:48,366 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 14:04:49,300 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 14:04:49,303 - tests.test_douyin_upload - INFO - 测试抖音登录
+2025-09-24 14:04:49,303 - pages.douyin_login_page - INFO - 开始抖音登录流程
+2025-09-24 14:04:49,303 - pages.base_page - INFO - 导航到: https://www.douyin.com
+2025-09-24 14:04:59,202 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 14:05:00,226 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 14:05:00,228 - tests.test_douyin_upload - INFO - 测试打开抖音创作平台
+2025-09-24 14:05:00,228 - pages.base_page - INFO - 导航到: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 14:05:13,447 - pages.douyin_upload_page - INFO - 等待上传界面加载
+2025-09-24 14:05:23,804 - conftest - INFO - 测试失败截图已保存: test_open_douyin_creator_platform_failure.png
+2025-09-24 14:05:25,378 - fixtures.browser - INFO - 浏览器已关闭
+2025-09-24 14:05:25,380 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 14:05:26,260 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 14:05:26,261 - tests.test_douyin_upload - INFO - 测试抖音登录
+2025-09-24 14:05:26,262 - pages.douyin_login_page - INFO - 开始抖音登录流程
+2025-09-24 14:05:26,262 - pages.base_page - INFO - 导航到: https://www.douyin.com
+2025-09-24 14:05:59,024 - pages.douyin_login_page - ERROR - 登录过程中出错: Timeout 30000ms exceeded.
+2025-09-24 14:05:59,194 - pages.base_page - INFO - 截图已保存: C:\Users\rick1\Desktop\app\PlayWright\reports\screenshots\douyin_login_error.png
+2025-09-24 14:05:59,224 - conftest - ERROR - 截图失败: Page.screenshot: Target page, context or browser has been closed
+Call log:
+  - taking page screenshot
+
+2025-09-24 14:06:00,282 - fixtures.browser - INFO - 浏览器已关闭
+2025-09-24 14:06:00,286 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 14:06:01,297 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 14:06:01,298 - tests.test_douyin_upload - INFO - 测试完整的上传流程
+2025-09-24 14:06:01,300 - pages.douyin_login_page - INFO - 开始抖音登录流程
+2025-09-24 14:06:01,300 - pages.base_page - INFO - 导航到: https://www.douyin.com
+2025-09-24 14:06:06,447 - pages.douyin_login_page - ERROR - 登录过程中出错: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.douyin.com/", waiting until "load"
+
+2025-09-24 14:06:06,794 - conftest - ERROR - 截图失败: Page.screenshot: Target page, context or browser has been closed
+2025-09-24 14:06:07,177 - fixtures.browser - INFO - 浏览器已关闭
