@@ -47,3 +47,242 @@ Call log:
 
 2025-09-24 14:06:06,794 - conftest - ERROR - 截图失败: Page.screenshot: Target page, context or browser has been closed
 2025-09-24 14:06:07,177 - fixtures.browser - INFO - 浏览器已关闭
+2025-09-24 14:44:19,149 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 14:44:20,187 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 14:44:20,188 - tests.test_douyin_upload - INFO - 测试打开抖音创作平台
+2025-09-24 14:44:20,188 - pages.base_page - INFO - 导航到: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 14:44:28,332 - conftest - ERROR - 截图失败: Page.screenshot: Target page, context or browser has been closed
+2025-09-24 14:44:28,785 - fixtures.browser - INFO - 浏览器已关闭
+2025-09-24 14:44:28,788 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 14:44:29,724 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 14:44:29,729 - tests.test_douyin_upload - INFO - 测试抖音登录
+2025-09-24 14:44:29,729 - pages.douyin_login_page - INFO - 开始抖音登录流程
+2025-09-24 14:44:29,730 - pages.base_page - INFO - 导航到: https://www.douyin.com
+2025-09-24 14:44:33,846 - pages.douyin_login_page - ERROR - 登录过程中出错: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.douyin.com/", waiting until "load"
+
+2025-09-24 14:44:33,940 - conftest - ERROR - 截图失败: Page.screenshot: Target page, context or browser has been closed
+2025-09-24 14:44:34,445 - fixtures.browser - INFO - 浏览器已关闭
+2025-09-24 14:44:34,448 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 14:44:35,334 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 14:44:35,334 - tests.test_douyin_upload - INFO - 测试完整的上传流程
+2025-09-24 14:44:35,335 - pages.douyin_login_page - INFO - 开始抖音登录流程
+2025-09-24 14:44:35,335 - pages.base_page - INFO - 导航到: https://www.douyin.com
+2025-09-24 14:44:36,646 - pages.douyin_login_page - ERROR - 登录过程中出错: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.douyin.com/", waiting until "load"
+
+2025-09-24 14:44:36,720 - conftest - ERROR - 截图失败: Page.screenshot: Target page, context or browser has been closed
+2025-09-24 14:44:36,966 - fixtures.browser - INFO - 浏览器已关闭
+2025-09-24 15:54:40,018 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 15:54:41,118 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 15:54:41,122 - tests.test_douyin_upload - INFO - 测试打开抖音创作平台
+2025-09-24 15:54:41,122 - pages.base_page - INFO - 导航到: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 15:54:58,200 - pages.douyin_upload_page - INFO - 等待上传界面加载
+2025-09-24 15:55:08,875 - conftest - INFO - 测试失败截图已保存: test_open_douyin_creator_platform_failure.png
+2025-09-24 15:55:09,851 - fixtures.browser - INFO - 浏览器已关闭
+2025-09-24 15:55:09,852 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 15:55:10,745 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 15:55:10,748 - tests.test_douyin_upload - INFO - 测试抖音登录
+2025-09-24 15:55:10,748 - pages.douyin_login_page - INFO - 开始抖音登录流程
+2025-09-24 15:55:10,748 - pages.base_page - INFO - 导航到: https://www.douyin.com
+2025-09-24 15:55:13,824 - pages.douyin_login_page - ERROR - 登录过程中出错: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.douyin.com/", waiting until "load"
+
+2025-09-24 15:55:13,906 - conftest - ERROR - 截图失败: Page.screenshot: Target page, context or browser has been closed
+2025-09-24 15:55:14,201 - fixtures.browser - INFO - 浏览器已关闭
+2025-09-24 15:55:14,202 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 15:55:15,034 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 15:55:15,034 - tests.test_douyin_upload - INFO - 测试完整的上传流程
+2025-09-24 15:55:15,035 - pages.douyin_login_page - INFO - 开始抖音登录流程
+2025-09-24 15:55:15,035 - pages.base_page - INFO - 导航到: https://www.douyin.com
+2025-09-24 15:55:16,645 - pages.douyin_login_page - ERROR - 登录过程中出错: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.douyin.com/", waiting until "load"
+
+2025-09-24 15:55:16,725 - conftest - ERROR - 截图失败: Page.screenshot: Target page, context or browser has been closed
+2025-09-24 15:55:16,971 - fixtures.browser - INFO - 浏览器已关闭
+2025-09-24 15:57:28,146 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 15:57:29,121 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 15:57:29,410 - fixtures.browser - INFO - 浏览器已关闭
+2025-09-24 15:57:29,411 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 15:57:30,240 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 15:57:30,558 - fixtures.browser - INFO - 浏览器已关闭
+2025-09-24 15:57:30,560 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 15:57:31,401 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 15:57:31,715 - fixtures.browser - INFO - 浏览器已关闭
+2025-09-24 16:03:53,020 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 16:03:54,069 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 16:03:54,069 - tests.test_douyin_upload - INFO - 测试打开抖音创作平台
+2025-09-24 16:03:54,275 - conftest - INFO - 测试失败截图已保存: test_open_douyin_creator_platform_failure.png
+2025-09-24 16:03:54,623 - fixtures.browser - INFO - 浏览器已关闭
+2025-09-24 16:04:32,272 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 16:04:33,316 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 16:04:33,316 - tests.test_douyin_upload - INFO - 测试打开抖音创作平台
+2025-09-24 16:04:33,506 - conftest - INFO - 测试失败截图已保存: test_open_douyin_creator_platform_failure.png
+2025-09-24 16:04:33,849 - fixtures.browser - INFO - 浏览器已关闭
+2025-09-24 16:19:37,003 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 16:19:38,051 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 16:19:38,052 - tests.test_douyin_upload - INFO - 测试打开抖音创作平台
+2025-09-24 16:19:38,230 - conftest - INFO - 测试失败截图已保存: test_open_douyin_creator_platform_failure.png
+2025-09-24 16:19:38,521 - fixtures.browser - INFO - 浏览器已关闭
+2025-09-24 16:25:44,739 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 16:25:45,780 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 16:25:45,781 - tests.test_douyin_upload - INFO - 测试打开抖音创作平台
+2025-09-24 16:25:45,781 - pages.douyin_upload_page - INFO - TXT cookies 加载成功
+2025-09-24 16:25:45,788 - pages.douyin_upload_page - INFO - cookies 注入成功
+2025-09-24 16:25:48,178 - pages.douyin_upload_page - INFO - 打开上传页面并尝试自动登录: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 16:25:48,503 - conftest - INFO - 测试失败截图已保存: test_open_douyin_creator_platform_failure.png
+2025-09-24 16:25:48,870 - fixtures.browser - INFO - 浏览器已关闭
+2025-09-24 16:27:18,474 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 16:27:19,535 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 16:27:19,535 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 16:27:19,535 - pages.douyin_upload_page - WARNING - 未找到 cookies 文件，请先保存cookies
+2025-09-24 16:27:35,845 - pages.douyin_upload_page - INFO - 打开上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 16:27:37,027 - fixtures.browser - INFO - 浏览器已关闭
+2025-09-24 16:27:49,637 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 16:27:50,769 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 16:27:50,769 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 16:27:50,770 - pages.douyin_upload_page - WARNING - 未找到 cookies 文件，请先保存cookies
+2025-09-24 16:27:53,305 - pages.douyin_upload_page - INFO - 打开上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 16:27:53,725 - fixtures.browser - INFO - 浏览器已关闭
+2025-09-24 16:30:21,956 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 16:30:23,066 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 16:30:23,066 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 16:30:23,066 - pages.douyin_upload_page - WARNING - 未找到 cookies 文件，请先保存cookies
+2025-09-24 16:30:27,460 - pages.douyin_upload_page - INFO - 打开上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 16:31:14,641 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 16:31:15,669 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 16:31:15,670 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 16:31:15,670 - pages.douyin_upload_page - INFO - TXT cookies 加载成功
+2025-09-24 16:31:15,698 - pages.douyin_upload_page - INFO - cookies 注入成功
+2025-09-24 16:31:17,805 - pages.douyin_upload_page - INFO - 打开上传页面并尝试自动登录: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 16:46:25,767 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 16:46:26,921 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 16:46:26,921 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 16:46:26,922 - pages.douyin_upload_page - INFO - TXT cookies 加载成功
+2025-09-24 16:46:26,972 - pages.douyin_upload_page - INFO - cookies 注入成功
+2025-09-24 16:46:30,407 - pages.douyin_upload_page - INFO - 打开上传页面并尝试自动登录: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 16:48:02,695 - fixtures.browser - INFO - 启动浏览器...
+2025-09-24 16:48:03,776 - fixtures.browser - INFO - 浏览器启动成功
+2025-09-24 16:48:03,776 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 16:48:03,777 - pages.douyin_upload_page - INFO - TXT cookies 加载成功
+2025-09-24 16:48:03,836 - pages.douyin_upload_page - INFO - cookies 注入成功
+2025-09-24 16:48:05,795 - pages.douyin_upload_page - INFO - 打开上传页面并尝试自动登录: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:02:50,401 - fixtures.browser - ERROR - 关闭浏览器时出错: BrowserContext.close: Target page, context or browser has been closed
+Browser logs:
+
+<launching> C:\Users\rick1\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-features=VizDisplayCompositor --user-data-dir=C:\Users\rick1\AppData\Local\Temp\playwright_chromiumdev_profile-Hu8thg --remote-debugging-pipe --no-startup-window
+<launched> pid=62236
+[pid=62236][err] [62236:16656:0924/164824.874:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[pid=62236][err] [62236:16656:0924/164849.247:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[pid=62236][err] [62236:16656:0924/164947.339:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[pid=62236][err] [62236:48932:0924/165104.204:ERROR:services\on_device_model\public\cpp\service_client.cc:36] Unexpected on_device_model service disconnect: Error loading backend.
+[pid=62236][err] [62236:16656:0924/165123.983:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[pid=62236][err] [62236:16656:0924/165316.415:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+[pid=62236][err] [62236:16656:0924/165417.764:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[pid=62236][err] [62236:16656:0924/165526.670:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+[pid=62236][err] [62236:16656:0924/170033.792:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+[pid=62236][err] [62236:16656:0924/170035.161:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: QUOTA_EXCEEDED
+[pid=62236] <gracefully close start>
+2025-09-24 17:27:40,335 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 17:27:41,425 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:27:43,218 - tests.test_douyin_upload - INFO - 打开上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:27:44,671 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-24 17:28:31,662 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 17:28:33,050 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:28:34,433 - tests.test_douyin_upload - INFO - 打开上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:28:35,503 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-24 17:31:34,477 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 17:31:36,083 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:31:37,100 - tests.test_douyin_upload - INFO - 打开上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:31:37,705 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-24 17:32:10,177 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 17:32:11,685 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:34:02,401 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 17:34:03,977 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:34:07,642 - tests.test_douyin_upload - INFO - 打开上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:34:07,665 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-24 17:34:50,083 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 17:34:51,375 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:34:54,493 - tests.test_douyin_upload - INFO - 打开上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:34:54,523 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-24 17:35:09,338 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 17:35:11,154 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:35:17,180 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 17:35:18,701 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:35:19,802 - tests.test_douyin_upload - INFO - 打开上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:35:20,341 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-24 17:35:52,496 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 17:35:54,023 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:35:57,472 - tests.test_douyin_upload - INFO - 打开上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:35:57,542 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-24 17:45:08,059 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 17:45:09,509 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:45:10,451 - tests.test_douyin_upload - INFO - 打开上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:45:11,308 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-24 17:45:23,021 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+2025-09-24 17:45:24,617 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 17:45:26,175 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:45:27,129 - tests.test_douyin_upload - INFO - 打开上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:45:27,726 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-24 17:45:52,507 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 17:45:53,846 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:45:57,503 - tests.test_douyin_upload - INFO - 打开上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:45:57,534 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-24 17:46:59,448 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 17:47:00,972 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:47:04,463 - tests.test_douyin_upload - INFO - 打开上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:47:04,496 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-24 17:47:31,484 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 17:47:32,816 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:47:36,236 - tests.test_douyin_upload - INFO - 打开上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:47:36,290 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-24 17:47:43,634 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 17:47:44,988 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:47:48,788 - tests.test_douyin_upload - INFO - 打开上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:47:48,809 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-24 17:48:53,763 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 17:48:55,126 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:48:58,725 - tests.test_douyin_upload - INFO - 打开上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:48:58,750 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-24 17:50:38,514 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 17:50:39,569 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:50:40,364 - tests.test_douyin_upload - INFO - 打开上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:50:41,518 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-24 17:52:07,899 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-24 17:52:09,769 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:52:10,550 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:52:20,380 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-24 17:52:21,918 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:52:22,717 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:52:29,308 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-24 17:52:30,816 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:52:31,840 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:52:39,295 - tests.test_douyin_upload - INFO - 开始测试打开抖音创作平台
+2025-09-24 17:52:40,874 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:52:41,598 - tests.test_douyin_upload - INFO - 打开上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:52:42,685 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-24 17:53:21,550 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-24 17:53:22,991 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:53:26,647 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:54:18,891 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-24 17:54:20,428 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-24 17:54:21,198 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-24 17:54:21,239 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-24 17:54:22,280 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-24 17:54:22,281 - pages.douyin_upload_page - INFO - 正在尝试点击上传视频按钮...
+2025-09-24 17:54:22,343 - pages.douyin_upload_page - INFO - ✔ 已成功点击上传视频按钮。
+2025-09-25 09:33:26,015 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-25 09:33:27,681 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-25 12:36:47,086 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-25 12:36:48,249 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-25 12:36:54,508 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-25 12:36:54,513 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-25 12:36:54,550 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-25 12:36:54,550 - pages.douyin_upload_page - INFO - 正在尝试点击上传视频按钮...
+2025-09-25 12:36:54,584 - pages.douyin_upload_page - INFO - ✔ 已成功点击上传视频按钮。

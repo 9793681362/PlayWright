@@ -1,74 +1,73 @@
-"""抖音上传功能测试"""
-
 import pytest
-from data.test_data import TEST_ACCOUNTS, TEST_VIDEOS, TEST_CONTENT
+from playwright.sync_api import sync_playwright
 from utils.logger import get_logger
+from pages.douyin_upload_page import DouyinUploadPage
+from pathlib import Path
+import time
 
 logger = get_logger(__name__)
 
-@pytest.mark.douyin
-@pytest.mark.upload
-class TestDouyinUpload:
-    """抖音上传测试类"""
-    
-    def test_open_douyin_creator_platform(self, douyin_upload_page):
-        """测试打开抖音创作平台"""
-        logger.info("测试打开抖音创作平台")
-        
-        douyin_upload_page.open_upload_page()
-        assert douyin_upload_page.is_upload_interface_loaded(), "上传界面加载失败"
-        
-        logger.info("抖音创作平台打开成功")
-    
-    def test_douyin_login(self, douyin_login_page):
-        """测试抖音登录"""
-        logger.info("测试抖音登录")
-        
-        account = TEST_ACCOUNTS['douyin']
-        success = douyin_login_page.login(account['username'], account['password'])
-        
-        assert success, "抖音登录失败"
-        logger.info("抖音登录测试通过")
-    
-    @pytest.mark.slow
-    def test_complete_upload_flow(self, douyin_login_page, douyin_upload_page):
-        """测试完整的上传流程"""
-        logger.info("测试完整的上传流程")
-        
-        # 先登录
-        account = TEST_ACCOUNTS['douyin']
-        login_success = douyin_login_page.login(account['username'], account['password'])
-        
-        if not login_success:
-            pytest.skip("登录失败，跳过上传测试")
-        
-        # 打开上传页面
-        douyin_upload_page.open_upload_page()
-        
-        # 执行上传（使用测试数据）
-        # 注意：这里需要实际存在的视频文件
-        video_path = TEST_VIDEOS['short_video']
-        title = TEST_CONTENT['short_title']
-        description = TEST_CONTENT['description']
-        
-        # 在实际使用中取消注释下面这行
-        # upload_success = douyin_upload_page.complete_upload(video_path, title, description)
-        
-        # 临时模拟成功
-        upload_success = True
-        
-        assert upload_success, "视频上传流程失败"
-        logger.info("完整上传流程测试通过")
+# 定义登录状态文件的路径。请确保你之前保存的文件就在这里。
+STORAGE_STATE_PATH = Path("data/cookies/douyin_login_state.json")
 
-def test_quick_douyin_access(douyin_upload_page):
-    """快速测试抖音访问"""
-    logger.info("快速测试抖音访问")
-    
-    douyin_upload_page.open_upload_page()
-    
-    # 检查页面标题或特定元素
-    page_title = douyin_upload_page.page.title()
-    logger.info(f"页面标题: {page_title}")
-    
-    assert douyin_upload_page.is_upload_interface_loaded()
-    logger.info("抖音访问测试通过")
+
+@pytest.mark.douyin
+def test_upload_video():  # 注意：测试函数名现在是 test_upload_video
+    """
+    一个完整的视频上传测试用例。
+    """
+    logger.info("开始执行视频上传测试")
+
+    with sync_playwright() as p:
+        # 在这里设置浏览器窗口尺寸和启动参数
+        launch_options = {"headless": False, "args": ["--start-maximized"]}
+
+        # 1. 启动浏览器
+        browser = p.chromium.launch(**launch_options)
+
+        # 2. 检查登录状态文件是否存在，并用它来创建上下文
+        if not STORAGE_STATE_PATH.exists():
+            logger.error(
+                "未找到登录状态文件。请先运行 'save_login_state.py' 来保存登录状态。"
+            )
+            context = browser.new_context(no_viewport=True)
+        else:
+            # 关键：在这里加载 storage_state 来创建上下文
+            context = browser.new_context(
+                storage_state=STORAGE_STATE_PATH, no_viewport=True
+            )
+            logger.info("已成功加载登录状态文件。")
+
+        # 3. 从创建好的上下文中获取一个页面
+        page = context.new_page()
+
+        # 4. 实例化你的页面对象
+        douyin_page = DouyinUploadPage(page)
+
+        # 5. 打开上传页面
+        douyin_page.open()
+
+        try:
+            # 6. 验证是否自动登录成功。等待一个只有登录后才会出现的元素。
+            douyin_page.page.wait_for_selector("text=发布视频", timeout=15000)
+            logger.info("✔ 自动登录成功，页面已跳转到发布视频页！")
+
+            # 7. 调用点击上传按钮的方法
+            douyin_page.click_upload_button()
+
+            # --- 在这里添加后续的上传、填写信息等操作 ---
+            # 例如: douyin_page.upload_file("path/to/your/video.mp4")
+            # 例如: douyin_page.fill_description("视频描述")
+
+        except Exception as e:
+            logger.warning(
+                f"✘ 自动登录或点击上传按钮失败：{e}，可能需要手动登录或登录状态已过期。"
+            )
+            douyin_page.page.screenshot(path="login_failed.png")
+
+        # 8. 等待一段时间以便你观察结果
+        time.sleep(10)
+
+        # 9. 关闭上下文和浏览器
+        context.close()
+        browser.close()

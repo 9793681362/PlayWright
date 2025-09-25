@@ -8,15 +8,18 @@ from utils.logger import get_logger
 
 logger = get_logger(__name__)
 
+
 @pytest.fixture(scope="function")
 def browser():
     """浏览器夹具 - 修复同步API问题"""
     from fixtures.browser import BrowserManager
+
     config = Config()
-    
+
     # 确保在独立的事件循环中运行
     with BrowserManager(config) as browser_manager:
         yield browser_manager.page
+
 
 @pytest.fixture(scope="session")
 def event_loop():
@@ -28,31 +31,38 @@ def event_loop():
     yield loop
     loop.close()
 
+
 @pytest.fixture
 def douyin_login_page(browser):
     """抖音登录页面夹具"""
     from pages.douyin_login_page import DouyinLoginPage
+
     return DouyinLoginPage(browser)
+
 
 @pytest.fixture
 def douyin_upload_page(browser):
     """抖音上传页面夹具"""
     from pages.douyin_upload_page import DouyinUploadPage
+
     return DouyinUploadPage(browser)
+
 
 def pytest_configure(config):
     """Pytest配置钩子"""
     # 确保报告目录存在
     from config.settings import FILE_PATHS
-    FILE_PATHS['reports'].mkdir(exist_ok=True)
-    FILE_PATHS['screenshots'].mkdir(exist_ok=True)
+
+    FILE_PATHS["reports"].mkdir(exist_ok=True)
+    FILE_PATHS["screenshots"].mkdir(exist_ok=True)
+
 
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item, call):
     """测试报告钩子，用于失败时截图"""
     outcome = yield
     report = outcome.get_result()
-    
+
     if report.when == "call" and report.failed:
         # 测试失败时截图
         try:
