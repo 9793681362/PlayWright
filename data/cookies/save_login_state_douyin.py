@@ -11,16 +11,22 @@ def save_state():
         page = context.new_page()
 
         print("请在打开的浏览器窗口中手动登录抖音，然后脚本将自动保存状态...")
-        page.goto("https://creator.douyin.com/")
-
+        # page.goto("https://creator.douyin.com/")
+        page.goto(
+            "https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video"
+        )
         try:
             # 等待URL变化，表示登录成功。我们等待URL包含 'creator-micro'
+            # page.wait_for_url(
+            #     "https://creator.douyin.com/creator-micro/*", timeout=600000
+            # )  # 等待10分钟
+            # 小红书
             page.wait_for_url(
-                "https://creator.douyin.com/creator-micro/*", timeout=600000
-            )  # 等待10分钟
+                re.compile(r"https://creator\.xiaohongshu\.com/.*"), timeout=600000
+            )
 
             # 关键改动：将路径改为当前目录下的文件名
-            storage_path = "douyin_login_state.json"
+            storage_path = "xiaohongshu_login_state.json"
 
             context.storage_state(path=storage_path)
 
