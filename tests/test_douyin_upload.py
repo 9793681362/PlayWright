@@ -11,7 +11,9 @@ logger = get_logger(__name__)
 
 # 定义登录状态文件的路径
 STORAGE_STATE_PATH = Path("data/cookies/douyin_login_state.json")
-VIDEO_INFO_PATH = Path(r"C:\Users\rick1\Desktop\app\re-plan-api\media\output\1.txt")
+VIDEO_INFO_PATH = Path(
+    r"C:\Users\rick1\Desktop\app\re-plan-api\media\output\replan.txt"
+)
 VIDEO_FILE_PATH = Path(r"C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4")
 
 
@@ -64,6 +66,7 @@ def test_upload_video():
             # 4.点击发布
 
             douyin_page.click_publish()
+            time.sleep(30)
 
         except Exception as e:
             logger.warning(f"✘ 上传流程异常：{e}")

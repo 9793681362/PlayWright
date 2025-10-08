@@ -1,6 +1,8 @@
 from .base_page import BasePage
 from utils.logger import get_logger
 
+import time
+
 logger = get_logger(__name__)
 
 
@@ -44,6 +46,7 @@ class DouyinUploadPage(BasePage):  # <-- 继承 BasePage
         self.page.locator(selector).type(description_text, delay=50)
 
         logger.info(f"✔ 已填写描述")
+        time.sleep(5)
 
     def upload_image(self):
         """上传封面图"""

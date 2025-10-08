@@ -1184,3 +1184,1777 @@ playwright._impl._errors.TargetClosedError: Target page, context or browser has 
 2025-09-28 20:26:40,535 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 本视频复盘1929年利弗莫尔做空美国股市的传奇案例，通过数据与逻辑分析，揭示市场泡沫识别与逆人性投资策略，帮助观众在波动中保持冷静，掌握实用行动指南。
 2025-09-28 20:26:49,576 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
 2025-09-28 20:26:54,954 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-29 10:21:52,890 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-29 10:21:54,932 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-29 10:21:58,811 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-29 10:21:58,816 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-29 10:21:58,853 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-29 10:21:58,853 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-29 10:21:58,873 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-09-29 10:21:58,873 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-09-29 10:21:58,873 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-09-29 10:21:58,873 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-29 10:22:00,104 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-29 10:22:00,115 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-09-29 10:22:00,468 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-29 10:22:00,644 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 抓住利润：交易成功第一信号
+2025-09-29 10:22:05,779 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-09-29 10:22:05,828 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-09-29 10:22:06,793 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-29 10:22:06,805 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-29 10:22:08,158 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-29 10:22:08,927 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-09-29 10:22:08,927 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-29 10:22:09,161 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-29 10:22:09,162 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-29 10:22:11,685 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-09-29 10:22:11,685 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-29 10:22:12,024 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-29 10:22:12,642 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-09-29 10:22:12,879 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-29 10:22:12,910 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 抓住利润：交易成功第一信号
+2025-09-29 10:22:12,910 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-09-29 10:22:12,915 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-09-29 10:22:12,934 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 本视频通过顶级对冲基金数据和GameStop真实案例，揭示投资核心原则：盈利交易往往首日显示利润。教你识别早期信号，果断止损，提升投资效率。专业分析，立即行动！
+2025-09-29 10:22:13,074 - tests.test_xiaohongshu_upload - WARNING - ✘ 上传流程异常：Locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("button:has-text('发布')")
+    - locator resolved to <button disabled type="button" data-v-e9a72776="" data-v-cde5b0a2="" data-v-3ef0b913-s="" class="d-button d-button-large --size-icon-large --size-text-h6 disabled d-button-with-content --color-static bold --color-bg-fill --color-text-disabled custom-button red disabled publishBtn" data-impression="{"noteTarget":{"type":"NoteTarget","value":{"noteEditSource":1,"noteType":3}},"event":{"type":"Event","value":{"targetType":{"type":"RichTargetType","value":"note_compose_target"},"action":{"type":"Normalize…>…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is not enabled
+  - retrying click action
+    - waiting 100ms
+
+2025-09-29 10:22:13,617 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-29 10:33:46,055 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-29 10:33:47,172 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-29 10:33:51,385 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-29 10:33:51,392 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-29 10:33:51,445 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-29 10:33:51,445 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-29 10:33:51,465 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-09-29 10:33:51,466 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-09-29 10:33:51,466 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-09-29 10:33:51,466 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-29 10:33:52,192 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-29 10:33:52,201 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-09-29 10:33:52,807 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-29 10:33:52,993 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 抓住利润：交易成功第一信号
+2025-09-29 10:33:58,252 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-09-29 10:33:58,297 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-09-29 10:34:09,161 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-29 10:34:09,170 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-29 10:34:10,594 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-29 10:34:11,401 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-09-29 10:34:11,401 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-29 10:34:11,638 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-29 10:34:11,638 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-29 10:34:14,214 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-09-29 10:34:14,214 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-29 10:34:14,448 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-29 10:34:15,661 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-09-29 10:34:15,894 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-29 10:34:15,907 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 抓住利润：交易成功第一信号
+2025-09-29 10:34:15,908 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-09-29 10:34:15,914 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-09-29 10:34:15,940 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 本视频通过顶级对冲基金数据和GameStop真实案例，揭示投资核心原则：盈利交易往往首日显示利润。教你识别早期信号，果断止损，提升投资效率。专业分析，立即行动！
+2025-09-29 10:34:19,003 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-09-29 10:34:29,808 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-29 13:26:23,367 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-29 13:26:24,533 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-29 13:26:28,831 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-29 13:26:28,837 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-29 13:26:28,883 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-29 13:26:28,883 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-29 13:26:28,906 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-09-29 13:26:28,906 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-09-29 13:26:28,906 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-09-29 13:26:28,906 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-29 13:26:30,084 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-29 13:26:30,095 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-09-29 13:26:30,356 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-29 13:26:30,508 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 抓住利润：交易成功第一信号
+2025-09-29 13:26:35,554 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-09-29 13:26:35,618 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-09-29 13:26:46,413 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-29 13:26:46,422 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-29 13:26:47,752 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-29 13:26:48,597 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-09-29 13:26:48,597 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-29 13:26:50,765 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-29 13:26:50,766 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-29 13:26:50,945 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-09-29 13:26:50,945 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-29 13:26:51,105 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-29 13:26:52,315 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-09-29 13:26:52,545 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-29 13:26:52,565 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 抓住利润：交易成功第一信号
+2025-09-29 13:26:52,565 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-09-29 13:26:52,572 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-09-29 13:26:52,603 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 本视频通过顶级对冲基金数据和GameStop真实案例，揭示投资核心原则：盈利交易往往首日显示利润。教你识别早期信号，果断止损，提升投资效率。专业分析，立即行动！
+2025-09-29 13:26:56,206 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-09-29 13:27:07,292 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-29 13:36:58,427 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-29 13:36:59,842 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-29 13:37:03,724 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-29 13:37:03,731 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-29 13:37:03,764 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-29 13:37:03,764 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-29 13:37:03,784 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-09-29 13:37:03,784 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-09-29 13:37:03,784 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-09-29 13:37:03,784 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-29 13:37:04,668 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-29 13:37:04,779 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-09-29 13:37:05,131 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-29 13:37:05,329 - pages.douyin_upload_page - INFO - ✔ 已填写标题: P/E比率选股解密
+2025-09-29 13:37:09,325 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-09-29 13:37:09,369 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-09-29 13:37:20,366 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-29 13:37:20,374 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-29 13:37:21,712 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-29 13:37:22,551 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-09-29 13:37:22,551 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-29 13:37:22,964 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-29 13:37:22,964 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-29 13:37:25,433 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-09-29 13:37:25,434 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-29 13:37:25,599 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-29 13:37:26,508 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-09-29 13:37:26,731 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-29 13:37:26,762 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: P/E比率选股解密
+2025-09-29 13:37:26,762 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-09-29 13:37:26,767 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-09-29 13:37:26,785 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 本视频通过真实数据和案例，深入解析P/E比率在选股中的核心作用，揭示常见误解，并提供实用行动指南，帮助投资者提升选股技巧。
+2025-09-29 13:37:31,459 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-09-29 13:37:43,631 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-29 18:01:50,921 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-29 18:01:52,126 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-29 18:01:53,139 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-29 18:01:53,181 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-29 18:01:54,372 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-29 18:01:54,372 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-29 18:01:54,413 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-09-29 18:01:54,413 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-09-29 18:01:54,413 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-09-29 18:01:54,413 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-29 18:01:55,605 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-29 18:01:55,616 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-09-29 18:01:56,143 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-29 18:01:56,376 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 交易员的自我修养：数据驱动的成功路径
+2025-09-29 18:02:01,739 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-09-29 18:02:01,784 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-09-29 18:02:12,990 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-29 18:02:12,999 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-29 18:02:14,589 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-29 18:02:15,360 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-09-29 18:02:15,361 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-29 18:02:15,710 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-29 18:02:15,710 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-29 18:02:18,161 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-09-29 18:02:18,161 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-29 18:02:18,356 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-29 18:02:19,018 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-09-29 18:02:19,256 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-29 18:02:19,277 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 交易员的自我修养：数据驱动的成功路径
+2025-09-29 18:02:19,277 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-09-29 18:02:19,285 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-09-29 18:02:19,309 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 本视频通过揭示90%交易员首年亏损的行业数据，以约翰·保罗的逆市获利案例解析市场非理性逻辑，强调情绪控制核心原则，并提供建立交易日志的立即行动指南，助你提升投资修养。
+2025-09-29 18:02:24,395 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-09-29 18:02:35,331 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-29 18:16:35,748 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-29 18:16:36,872 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-29 18:16:38,284 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-29 18:16:39,779 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-29 19:40:57,284 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-29 19:40:58,800 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-29 19:41:01,333 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-29 19:41:02,323 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-29 19:41:03,338 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-09-29 19:41:03,339 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-29 19:41:03,577 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-29 19:41:03,577 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-29 19:41:06,007 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-09-29 19:41:06,007 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-29 19:41:06,160 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-29 19:41:06,499 - tests.test_xiaohongshu_upload - WARNING - ✘ 上传流程异常：Locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator(".upload-btn")
+
+2025-09-29 19:41:06,881 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-29 19:50:55,199 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-29 19:50:56,144 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-29 19:51:00,345 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-29 19:51:00,355 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-29 19:51:00,381 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-29 19:51:00,381 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-29 19:51:00,412 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-09-29 19:51:00,412 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-09-29 19:51:00,413 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-09-29 19:51:00,413 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-29 19:51:01,616 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-29 19:51:01,709 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-09-29 19:51:02,078 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-29 19:51:02,289 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 价值投资：熊市中的盈利逻辑
+2025-09-29 19:51:08,347 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-09-29 19:51:08,415 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-09-29 19:51:18,835 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-29 19:51:18,845 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-29 19:51:19,743 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-29 19:51:20,765 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-09-29 19:51:20,765 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-29 19:51:21,085 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-29 19:51:21,086 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-29 19:51:23,465 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-09-29 19:51:23,465 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-29 19:51:23,609 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-29 19:51:25,122 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-09-29 19:51:25,410 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-29 19:51:25,432 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 价值投资：熊市中的盈利逻辑
+2025-09-29 19:51:25,432 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-09-29 19:51:25,440 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-09-29 19:51:25,463 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 本视频通过震撼数据揭示80%投资者熊市亏损的痛点，以巴菲特投资可口可乐的经典案例解析价值投资底层逻辑，总结安全边际与复利效应核心原则，并提供立即可用的财务报表分析行动指南，帮助观众理性决策。
+2025-09-29 19:51:41,685 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-09-29 19:51:52,059 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-29 20:48:42,981 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-29 20:48:44,368 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-29 20:48:49,184 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-29 20:48:49,188 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-29 20:48:49,214 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-29 20:48:49,214 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-29 20:48:49,235 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-09-29 20:48:49,236 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-09-29 20:48:49,236 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-09-29 20:48:49,236 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-29 20:48:51,904 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-29 20:48:51,987 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-09-29 20:48:52,277 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-29 20:48:52,472 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 价值投资解密：如何像巴菲特一样投资
+2025-09-29 20:48:58,029 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-09-29 20:48:58,088 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-09-29 20:49:09,028 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-29 20:49:09,037 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-29 20:49:10,088 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-29 20:49:11,135 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-09-29 20:49:11,135 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-29 20:49:11,456 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-29 20:49:11,456 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-29 20:49:13,743 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-09-29 20:49:13,743 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-29 20:49:13,898 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-29 20:49:17,315 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-09-29 20:49:17,588 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-29 20:49:17,603 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 价值投资解密：如何像巴菲特一样投资
+2025-09-29 20:49:17,603 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-09-29 20:49:17,610 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-09-29 20:49:17,634 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 本视频通过惊人数据揭示90%投资者牛市亏损现象，以巴菲特投资可口可乐为案例，深入分析价值投资的安全边际原则，提供财报分析和长期持有行动指南，帮助观众避免常见错误，实现稳健收益。
+2025-09-29 20:49:29,228 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-09-29 20:49:39,621 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 09:38:49,138 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-30 09:38:50,626 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 09:38:51,864 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-30 09:38:52,972 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 09:49:42,643 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-30 09:49:44,014 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 09:49:47,966 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-30 09:49:47,972 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 09:49:48,011 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 09:49:48,012 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 09:49:48,032 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-09-30 09:49:48,033 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-09-30 09:49:48,033 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-09-30 09:49:48,033 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 09:49:48,976 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 09:49:49,003 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 09:49:49,329 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 09:49:49,502 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 价值投资：从数据到行动
+2025-09-30 09:49:53,283 - tests.test_douyin_upload - WARNING - ✘ 上传流程异常：Locator.type: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("div[contenteditable='true'][data-placeholder='添加作品简介']")
+    - locator resolved to <div data-zone-id="0" spellcheck="false" contenteditable="true" data-zone-container="*" data-slate-editor="true" data-placeholder="添加作品简介" class="zone-container editor-kit-container editor editor-comp-publish notranslate chrome window chrome88"></div>
+  - elementHandle.type("本视频通过A股市场90%散户亏损数据与贵州茅台、巴菲特投资案例，揭示价值投资底层逻辑，总结安全边际等原则，并提供学习财报分析等行动指南，帮助观众避免亏损、实现长期收益。情绪专业冷静。")
+
+2025-09-30 09:49:54,180 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 09:49:54,254 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-30 09:49:55,462 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 09:58:38,804 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-30 09:58:40,165 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 09:58:44,222 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-30 09:58:44,229 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 09:58:44,266 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 09:58:44,266 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 09:58:44,286 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-09-30 09:58:44,286 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-09-30 09:58:44,287 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-09-30 09:58:44,287 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 09:58:45,197 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 09:58:45,213 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 09:58:45,750 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 09:58:46,136 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 价值投资：熊市中的稳健赢家
+2025-09-30 09:58:52,751 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-09-30 09:58:52,809 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-09-30 09:59:03,558 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 09:59:03,566 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-30 09:59:04,468 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 09:59:05,167 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-09-30 09:59:05,167 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 09:59:05,535 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 09:59:05,535 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 09:59:07,227 - tests.test_xiaohongshu_upload - WARNING - ✘ 上传流程异常：Page.set_input_files: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("input[type='file']")
+
+2025-09-30 09:59:07,598 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 10:08:17,741 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-30 10:08:18,789 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 10:08:22,656 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-30 10:08:22,663 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 10:08:22,694 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 10:08:22,695 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 10:08:22,715 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-09-30 10:08:22,715 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-09-30 10:08:22,715 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-09-30 10:08:22,716 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 10:08:23,540 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 10:08:23,636 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 10:08:23,974 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 10:08:24,154 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 布雷顿森林体系：货币贬值与投资避险
+2025-09-30 10:08:28,710 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-09-30 10:08:28,764 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-09-30 10:08:39,590 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 10:08:39,598 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-30 10:08:40,637 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 10:08:41,545 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-09-30 10:08:41,546 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 10:08:41,802 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 10:08:41,803 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 10:08:44,182 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-09-30 10:08:44,183 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 10:08:44,326 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 10:08:45,598 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 10:08:45,829 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 10:08:45,850 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 布雷顿森林体系：货币贬值与投资避险
+2025-09-30 10:08:45,851 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-09-30 10:08:45,864 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-09-30 10:08:45,883 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 本视频以1944年布雷顿森林体系为切入点，通过历史数据和案例，揭示货币贬值风险，为高净值投资者提供黄金配置的行动指南。情感共鸣，专业权威。
+2025-09-30 10:08:49,485 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-09-30 10:09:00,107 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 10:30:08,075 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-30 10:30:09,344 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 10:30:13,111 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-30 10:30:13,117 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 10:30:13,152 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 10:30:13,152 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 10:30:13,176 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-09-30 10:30:13,176 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-09-30 10:30:13,176 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-09-30 10:30:13,176 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 10:30:14,097 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 10:30:14,132 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 10:30:14,486 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 10:30:14,654 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 交易计划：每单必录的投资密码
+2025-09-30 10:30:21,676 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-09-30 10:30:21,723 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-09-30 10:30:32,745 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 10:30:32,753 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-30 10:30:33,885 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 10:30:34,713 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-09-30 10:30:34,713 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 10:30:34,959 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 10:30:34,960 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 10:30:37,427 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-09-30 10:30:37,427 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 10:30:37,592 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 10:30:38,258 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 10:30:38,498 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 10:30:38,523 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 交易计划：每单必录的投资密码
+2025-09-30 10:30:38,524 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-09-30 10:30:38,528 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-09-30 10:30:38,550 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 本视频通过震撼数据揭示80%散户亏损根源，结合2020年原油暴跌真实案例，剖析交易计划的底层逻辑，总结硬核原则如记录买入理由、止损点和目标价位，并提供可立即下载模板的行动指南，帮助投资者避免情绪化决策，实现专业级风险控制。
+2025-09-30 10:30:43,205 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-09-30 10:30:54,514 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 10:33:33,479 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-30 10:33:34,557 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 10:33:36,913 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-30 10:33:38,171 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 13:09:41,700 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-30 13:09:42,872 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 13:09:46,884 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-30 13:09:46,899 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 13:09:46,938 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 13:09:46,944 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 13:09:46,968 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-09-30 13:09:46,968 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-09-30 13:09:46,969 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-09-30 13:09:46,969 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 13:09:48,208 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 13:09:48,230 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 13:09:48,471 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 13:09:48,680 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 时间：投资的最佳盟友与最差敌人
+2025-09-30 13:09:54,378 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-09-30 13:09:54,445 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-09-30 13:10:05,188 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 13:10:05,197 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-30 13:10:06,111 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 13:10:06,925 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-09-30 13:10:06,925 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 13:10:07,141 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 13:10:07,142 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 13:10:09,647 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-09-30 13:10:09,648 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 13:10:09,828 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 13:10:10,513 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 13:10:10,743 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 13:10:10,766 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 时间：投资的最佳盟友与最差敌人
+2025-09-30 13:10:10,767 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-09-30 13:10:10,773 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-09-30 13:10:10,792 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 本视频通过标普500指数和苹果、柯达的对比案例，专业分析时间如何成为优秀公司的朋友与平庸公司的敌人。内容简洁权威，情感共鸣认同，结尾提供实用行动指南，助您理解长期投资底层逻辑。
+2025-09-30 13:10:15,453 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-09-30 13:10:26,247 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 14:46:37,795 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-30 14:46:39,241 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 14:46:43,450 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-30 14:46:43,460 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 14:46:43,496 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 14:46:43,497 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 14:46:43,520 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-09-30 14:46:43,521 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-09-30 14:46:43,521 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-09-30 14:46:43,521 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 14:46:44,557 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 14:46:44,566 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 14:46:44,884 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 14:46:45,112 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 价值投资：穿越周期的底层逻辑
+2025-09-30 14:46:48,351 - tests.test_douyin_upload - WARNING - ✘ 上传流程异常：Locator.type: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("div[contenteditable='true'][data-placeholder='添加作品简介']")
+    - locator resolved to <div data-zone-id="0" spellcheck="false" contenteditable="true" data-zone-container="*" data-slate-editor="true" data-placeholder="添加作品简介" class="zone-container editor-kit-container editor editor-comp-publish notranslate chrome window chrome88"></div>
+  - elementHandle.type("揭秘巴菲特长期跑赢市场的核心算法。通过可口可乐经典案例，拆解价值投资三大原则，教你识别被低估的优质资产。")
+
+2025-09-30 14:46:49,460 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 14:46:49,533 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-30 14:46:50,911 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 14:46:51,695 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-09-30 14:46:51,695 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 14:46:51,920 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 14:46:51,921 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 14:46:52,128 - tests.test_xiaohongshu_upload - WARNING - ✘ 上传流程异常：Page.set_input_files: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("input[type='file']")
+
+2025-09-30 14:46:52,455 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 14:52:47,378 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-30 14:52:48,749 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 14:52:52,402 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-30 14:52:52,412 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 14:52:52,456 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 14:52:52,464 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 14:52:52,492 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-09-30 14:52:52,496 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-09-30 14:52:52,498 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-09-30 14:52:52,499 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 14:52:53,566 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 14:52:53,580 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 14:52:53,937 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 14:52:54,100 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 复利效应：被低估的财富核武器
+2025-09-30 14:52:57,428 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-09-30 14:52:57,468 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-09-30 14:53:08,315 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 14:53:08,324 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-30 14:53:09,582 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 14:53:11,094 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-09-30 14:53:11,094 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 14:53:11,382 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 14:53:11,383 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 14:53:13,688 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-09-30 14:53:13,690 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 14:53:13,870 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 14:53:15,112 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 14:53:15,306 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 14:53:15,320 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 复利效应：被低估的财富核武器
+2025-09-30 14:53:15,321 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-09-30 14:53:15,327 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-09-30 14:53:15,345 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 揭秘巴菲特99.8%财富来源的底层逻辑。用真实数据拆解复利效应，60秒掌握让财富持续增值的核心方法论。
+2025-09-30 14:53:18,940 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-09-30 14:53:30,108 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 14:56:34,607 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-30 14:56:35,941 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 14:56:39,693 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-30 14:56:39,700 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 14:56:39,740 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 14:56:39,742 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 14:56:39,763 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-09-30 14:56:39,764 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-09-30 14:56:39,764 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-09-30 14:56:39,764 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 14:56:40,959 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 14:56:41,054 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 14:56:41,430 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 14:56:41,609 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 资产配置：90%收益的决定性力量
+2025-09-30 14:56:45,589 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-09-30 14:56:45,634 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-09-30 14:56:56,479 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 14:56:56,487 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-30 14:56:57,719 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 14:56:58,766 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-09-30 14:56:58,766 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 14:56:58,786 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 14:56:58,786 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 14:57:01,293 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-09-30 14:57:01,294 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 14:57:01,495 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 14:57:02,988 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 14:57:03,204 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 14:57:03,229 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 资产配置：90%收益的决定性力量
+2025-09-30 14:57:03,232 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-09-30 14:57:03,244 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-09-30 14:57:03,274 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 揭秘机构投资者不说的秘密：为什么90%的投资收益来自资产配置？用60秒掌握核心逻辑，立即优化你的投资组合。
+2025-09-30 14:57:06,874 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-09-30 14:57:17,655 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 15:09:30,238 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-30 15:09:31,761 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 15:09:32,931 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-30 15:09:32,971 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 15:09:34,175 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 15:09:34,177 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 15:09:34,200 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-09-30 15:09:34,201 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-09-30 15:09:34,202 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-09-30 15:09:34,202 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 15:09:35,299 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 15:09:35,462 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 15:09:35,892 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 15:09:36,096 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 技术分析：是科学还是玄学？
+2025-09-30 15:09:39,552 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-09-30 15:09:39,646 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-09-30 15:09:51,438 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 15:09:51,464 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-30 15:09:52,815 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 15:09:54,085 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-09-30 15:09:54,086 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 15:09:54,369 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 15:09:54,372 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 15:09:56,835 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-09-30 15:09:56,838 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 15:09:57,042 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 15:09:58,564 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 15:09:58,696 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 15:09:58,729 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 技术分析：是科学还是玄学？
+2025-09-30 15:09:58,732 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-09-30 15:09:58,748 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-09-30 15:09:58,779 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 揭秘技术分析背后的真实逻辑，用60秒颠覆你对K线图的认知。专业投资顾问带你穿透表象，看清市场本质。
+2025-09-30 15:10:02,390 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-09-30 15:10:13,410 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 20:06:45,517 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-30 20:06:46,883 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 20:06:51,018 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-30 20:06:51,030 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 20:06:51,059 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 20:06:51,062 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 20:06:51,082 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-09-30 20:06:51,082 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-09-30 20:06:51,082 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-09-30 20:06:51,082 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 20:06:52,304 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 20:06:52,432 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 20:06:52,756 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 20:06:52,949 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 基本面分析：别被K线图骗了
+2025-09-30 20:06:55,949 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-09-30 20:06:55,988 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-09-30 20:07:06,403 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 20:07:06,413 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-30 20:07:07,533 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 20:07:08,332 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-09-30 20:07:08,333 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 20:07:08,618 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 20:07:08,619 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 20:07:10,966 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-09-30 20:07:10,966 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 20:07:11,133 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 20:07:12,381 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 20:07:12,635 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 20:07:12,665 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 基本面分析：别被K线图骗了
+2025-09-30 20:07:12,666 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-09-30 20:07:12,672 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-09-30 20:07:12,692 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 揭秘基本面分析如何帮你识破市场假象，找到真正值得投资的股票。60秒干货，颠覆你的选股思维。
+2025-09-30 20:07:16,573 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-09-30 20:07:27,167 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 21:01:39,749 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-30 21:01:40,760 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 21:01:41,647 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-30 21:01:41,686 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 21:01:42,789 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 21:01:42,791 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 21:01:42,820 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-09-30 21:01:42,821 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-09-30 21:01:42,822 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-09-30 21:01:42,822 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 21:01:43,970 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 21:01:44,028 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 21:01:44,477 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 21:01:44,630 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 量化交易：你的对手不是人
+2025-09-30 21:01:47,924 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-09-30 21:01:47,960 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-09-30 21:01:58,799 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 21:01:58,812 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-30 21:01:59,757 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 21:02:00,629 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-09-30 21:02:00,629 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 21:02:00,897 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 21:02:00,897 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 21:02:03,259 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-09-30 21:02:03,259 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 21:02:03,426 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 21:02:04,190 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 21:02:04,474 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 21:02:04,499 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 量化交易：你的对手不是人
+2025-09-30 21:02:04,499 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-09-30 21:02:04,508 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-09-30 21:02:04,532 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 揭秘华尔街最神秘的赚钱机器，看懂量化交易如何用数学和算法收割市场。60秒硬核解析，颠覆你的投资认知。
+2025-09-30 21:02:08,948 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-09-30 21:02:19,323 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 23:01:50,696 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-09-30 23:01:51,863 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 23:01:55,506 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-09-30 23:01:55,523 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 23:01:55,545 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 23:01:55,547 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 23:01:55,568 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-09-30 23:01:55,568 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-09-30 23:01:55,569 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-09-30 23:01:55,569 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 23:01:56,750 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 23:01:56,759 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 23:01:57,073 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 23:01:57,294 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 基金定投的数学骗局
+2025-09-30 23:02:00,675 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-09-30 23:02:00,715 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-09-30 23:02:11,081 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-09-30 23:02:11,092 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-09-30 23:02:11,984 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-09-30 23:02:13,202 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-09-30 23:02:13,202 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-09-30 23:02:13,515 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-09-30 23:02:13,515 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-09-30 23:02:15,773 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-09-30 23:02:15,774 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-09-30 23:02:15,913 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-09-30 23:02:18,842 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-09-30 23:02:19,089 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-09-30 23:02:19,114 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 基金定投的数学骗局
+2025-09-30 23:02:19,115 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-09-30 23:02:19,121 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-09-30 23:02:19,144 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 揭露基金定投背后的真实数学原理，为什么它可能不是稳赚不赔的投资方式？通过数据对比和逻辑分析，打破传统投资迷思。
+2025-09-30 23:02:24,087 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-09-30 23:02:34,422 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 00:01:51,647 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-01 00:01:52,682 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 00:01:55,905 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-01 00:01:55,919 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 00:01:55,942 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 00:01:55,944 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 00:01:55,966 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-01 00:01:55,967 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-01 00:01:55,967 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-01 00:01:55,967 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 00:01:57,296 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 00:01:57,322 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 00:01:57,674 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 00:01:57,846 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 指数基金：被忽略的财富密码
+2025-10-01 00:02:00,428 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-01 00:02:00,465 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 00:02:10,848 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 00:02:10,848 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-01 00:02:11,810 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 00:02:12,769 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-01 00:02:12,769 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 00:02:13,016 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 00:02:13,016 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 00:02:15,396 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-01 00:02:15,396 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 00:02:15,540 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 00:02:17,056 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 00:02:17,333 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 00:02:17,351 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 指数基金：被忽略的财富密码
+2025-10-01 00:02:17,351 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-01 00:02:17,357 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-01 00:02:17,377 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 揭秘为什么90%的投资者跑不赢指数基金。通过真实案例和逻辑分析，打破投资迷思。
+2025-10-01 00:02:21,782 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 00:02:32,180 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 01:01:58,835 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-01 01:01:59,794 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 01:02:00,675 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-01 01:02:00,716 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 01:02:01,842 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 01:02:01,842 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 01:02:01,865 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-01 01:02:01,865 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-01 01:02:01,866 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-01 01:02:01,866 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 01:02:03,032 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 01:02:03,163 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 01:02:03,709 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 01:02:03,877 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 主动基金的隐藏陷阱
+2025-10-01 01:02:06,157 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-01 01:02:06,204 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 01:02:16,571 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 01:02:16,571 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-01 01:02:17,429 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 01:02:18,857 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-01 01:02:18,857 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 01:02:18,879 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 01:02:18,880 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 01:02:21,323 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-01 01:02:21,324 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 01:02:21,487 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 01:02:22,512 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 01:02:22,779 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 01:02:22,851 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 主动基金的隐藏陷阱
+2025-10-01 01:02:22,853 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-01 01:02:22,860 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-01 01:02:22,884 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 用60秒揭示主动型基金的真实成本与业绩之谜，颠覆你对基金投资的传统认知。
+2025-10-01 01:02:28,355 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 01:02:38,700 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 08:01:38,174 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-01 08:01:39,739 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 08:01:44,066 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-01 08:01:44,073 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 08:01:44,110 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 08:01:44,113 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 08:01:44,133 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-01 08:01:44,133 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-01 08:01:44,134 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-01 08:01:44,134 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 08:01:45,323 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 08:01:45,333 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 08:01:45,712 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 08:01:45,899 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 债券基金：被低估的避风港
+2025-10-01 08:01:49,146 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-01 08:01:49,193 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 08:01:59,509 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 08:01:59,520 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-01 08:02:00,758 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 08:02:01,836 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-01 08:02:01,836 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 08:02:02,101 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 08:02:02,103 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 08:02:03,783 - tests.test_xiaohongshu_upload - WARNING - ✘ 上传流程异常：Page.set_input_files: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("input[type='file']")
+
+2025-10-01 08:02:04,768 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 08:03:57,020 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-01 08:03:58,152 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 08:03:58,984 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-01 08:03:59,024 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 08:04:00,262 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 08:04:00,264 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 08:04:19,213 - tests.test_douyin_upload - WARNING - ✘ 上传流程异常：Page.set_input_files: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("input[type='file']")
+    41 × locator resolved to <input type="file" tabindex="-1" accept="video/x-flv,video/mp4,video/x-m4v,video/*,.flv,.avi,.wmv,.webm,.ts,.mp4,.mpeg4,.mov,.m4v,.mpg,.mkv,.m4"/>
+
+2025-10-01 08:04:20,303 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 08:04:20,747 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-01 08:04:21,890 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 08:04:22,978 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-01 08:04:22,978 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 08:04:23,227 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 08:04:23,230 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 08:04:25,687 - tests.test_xiaohongshu_upload - WARNING - ✘ 上传流程异常：Page.set_input_files: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("input[type='file']")
+    - locator resolved to <input type="file" data-v-8e654c2a="" data-v-7cbccdb2-s="" class="upload-input" accept=".mp4,.mov,.flv,.f4v,.mkv,.rm,.rmvb,.m4v,.mpg,.mpeg,.ts"/>
+
+2025-10-01 08:04:25,992 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 08:04:28,056 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-01 08:04:29,306 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 08:04:30,087 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-01 08:04:30,131 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 08:04:31,169 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 08:04:31,171 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 08:04:47,282 - tests.test_douyin_upload - WARNING - ✘ 上传流程异常：Page.set_input_files: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("input[type='file']")
+    36 × locator resolved to <input type="file" tabindex="-1" accept="video/x-flv,video/mp4,video/x-m4v,video/*,.flv,.avi,.wmv,.webm,.ts,.mp4,.mpeg4,.mov,.m4v,.mpg,.mkv,.m4"/>
+
+2025-10-01 08:04:48,452 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 08:04:48,883 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-01 08:04:49,898 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 08:04:50,938 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-01 08:04:50,938 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 08:04:51,222 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 08:04:51,223 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 08:04:56,891 - tests.test_xiaohongshu_upload - WARNING - ✘ 上传流程异常：Page.set_input_files: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("input[type='file']")
+    7 × locator resolved to <input type="file" data-v-8e654c2a="" data-v-7cbccdb2-s="" class="upload-input" accept=".mp4,.mov,.flv,.f4v,.mkv,.rm,.rmvb,.m4v,.mpg,.mpeg,.ts"/>
+
+2025-10-01 08:04:57,319 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 08:07:32,945 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-01 08:07:33,999 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 08:07:37,644 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-01 08:07:37,652 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 08:07:37,683 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 08:07:37,685 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 08:07:37,703 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-01 08:07:37,704 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-01 08:07:37,704 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-01 08:07:37,704 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 08:07:38,572 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 08:07:38,597 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 08:07:38,948 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 08:07:39,133 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 债券基金 稳赚不赔的陷阱
+2025-10-01 08:07:45,033 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-01 08:07:45,095 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 08:07:55,884 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 08:07:55,892 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-01 08:07:56,830 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 08:07:58,248 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-01 08:07:58,249 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 08:07:58,318 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 08:07:58,319 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 08:08:00,745 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-01 08:08:00,745 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 08:08:00,888 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 08:08:03,995 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 08:08:04,258 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 08:08:04,275 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 债券基金 稳赚不赔的陷阱
+2025-10-01 08:08:04,275 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-01 08:08:04,281 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-01 08:08:04,304 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 你以为债券基金稳赚不赔？数据揭示残酷真相：过去一年超30%债基亏损。专业拆解债基三大风险，教你识别真正安全的固收资产。告别盲目投资，做清醒的理财人。#债券基金 #投资风险 #理财避坑
+2025-10-01 08:08:08,219 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 08:08:18,612 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 10:23:58,009 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-01 10:23:59,831 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 10:24:04,481 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-01 10:24:04,492 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 10:24:04,517 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 10:24:04,523 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 10:24:04,549 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-01 10:24:04,550 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-01 10:24:04,550 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-01 10:24:04,550 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 10:24:06,234 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 10:24:06,247 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 10:24:06,663 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 10:24:06,947 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 货币基金收益走低原因
+2025-10-01 10:24:12,925 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-01 10:24:12,977 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 10:24:23,489 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 10:24:23,503 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-01 10:24:25,072 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 10:24:27,029 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-01 10:24:27,029 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 10:24:27,217 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 10:24:27,218 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 10:24:30,192 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-01 10:24:30,194 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 10:24:30,369 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 10:24:33,938 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 10:24:34,266 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 10:24:34,302 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 货币基金收益走低原因
+2025-10-01 10:24:34,303 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-01 10:24:34,310 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-01 10:24:34,343 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 货币基金收益率为何从7%跌至2%？揭秘余额宝等产品收益下滑背后的金融逻辑。专业分析央行政策与市场影响，给出理性投资建议。冷幽默点缀，让硬核知识更易懂。#货币基金 #投资洞见 #理财知识
+2025-10-01 10:24:45,485 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 10:24:56,281 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 15:56:16,905 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-01 15:56:33,488 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 15:56:37,923 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-01 15:56:37,931 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 15:56:37,951 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 15:56:37,976 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 15:56:38,020 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-01 15:56:38,020 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-01 15:56:38,021 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-01 15:56:38,021 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 15:56:39,169 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 15:56:39,198 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 15:56:39,684 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 15:56:39,926 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 股票基金 暗藏玄机
+2025-10-01 15:56:45,070 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-01 15:56:45,106 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 15:56:55,610 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 15:56:55,610 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-01 15:56:56,719 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 15:56:57,801 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-01 15:56:57,801 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 15:56:58,053 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 15:56:58,053 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 15:57:00,458 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-01 15:57:00,459 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 15:57:00,599 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 15:57:03,834 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 15:57:04,156 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 15:57:04,175 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 股票基金 暗藏玄机
+2025-10-01 15:57:04,176 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-01 15:57:04,181 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-01 15:57:04,210 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 超过90%主动股票基金长期跑输指数，揭露高费率如何吞噬收益。通过真实案例和逻辑分析，总结被动投资原理，指导转向低成本指数基金定投。#金融知识 #投资策略 #基金选择
+2025-10-01 15:57:17,865 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 15:57:28,228 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 16:07:15,265 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-01 16:07:22,477 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 16:07:26,163 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-01 16:07:26,182 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 16:07:26,208 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 16:07:26,227 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 16:07:26,251 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-01 16:07:26,251 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-01 16:07:26,252 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-01 16:07:26,252 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 16:07:27,431 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 16:07:27,446 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 16:07:27,821 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 16:07:28,007 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 混合基金 投资真相揭秘
+2025-10-01 16:07:34,028 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-01 16:07:34,069 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 16:07:44,450 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 16:07:44,467 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-01 16:07:45,369 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 16:07:46,325 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-01 16:07:46,326 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 16:07:46,606 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 16:07:46,608 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 16:07:48,946 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-01 16:07:48,947 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 16:07:49,093 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 16:07:50,578 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 16:07:50,830 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 16:07:50,847 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 混合基金 投资真相揭秘
+2025-10-01 16:07:50,848 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-01 16:07:50,854 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-01 16:07:50,876 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 混合型基金真的稳健吗？数据揭示大多数投资者误解风险。通过真实案例展示混合基金在熊市中的抗跌性，逻辑拆解资产配置原理。专业投资顾问给出实用行动指南，助你避免盲目投资。#混合基金 #投资洞见 #金融知识
+2025-10-01 16:08:05,598 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 16:08:16,124 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 16:17:29,086 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-01 16:17:30,039 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 16:17:30,636 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-01 16:17:31,803 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 16:17:32,973 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-01 16:17:33,013 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 16:17:34,509 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 16:17:34,512 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 16:17:34,533 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-01 16:17:34,534 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-01 16:17:34,535 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-01 16:17:34,535 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 16:17:34,601 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-01 16:17:34,610 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 16:17:34,638 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 16:17:34,648 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 16:17:34,679 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-01 16:17:34,683 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-01 16:17:34,684 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-01 16:17:34,685 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 16:17:36,249 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 16:17:36,264 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 16:17:36,297 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 16:17:36,303 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 16:17:36,805 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 16:17:36,992 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 时间：优秀公司的朋友，平庸公司的敌人
+2025-10-01 16:17:37,416 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 16:17:37,599 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 时间：优秀公司的朋友，平庸公司的敌人
+2025-10-01 16:17:41,429 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-01 16:17:41,790 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-01 16:21:01,438 - tests.test_douyin_upload - WARNING - ✘ 上传流程异常：Locator.click: Target page, context or browser has been closed
+2025-10-01 16:21:02,178 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 16:21:02,252 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-01 16:21:03,308 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 16:21:03,436 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 16:21:04,429 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-01 16:21:04,429 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 16:21:04,692 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 16:21:04,692 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 16:21:06,478 - tests.test_xiaohongshu_upload - WARNING - ✘ 上传流程异常：Page.set_input_files: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("input[type='file']")
+
+2025-10-01 16:21:06,748 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 16:21:14,750 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 16:21:14,758 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-01 16:21:15,575 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 16:21:16,926 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-01 16:21:16,926 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 16:21:16,997 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 16:21:16,998 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 16:21:31,797 - tests.test_xiaohongshu_upload - WARNING - ✘ 上传流程异常：Page.set_input_files: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("input[type='file']")
+    25 × locator resolved to <input type="file" data-v-8e654c2a="" data-v-7cbccdb2-s="" class="upload-input" accept=".mp4,.mov,.flv,.f4v,.mkv,.rm,.rmvb,.m4v,.mpg,.mpeg,.ts"/>
+
+2025-10-01 16:21:32,118 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 16:29:27,872 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-01 16:29:28,902 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 16:29:33,057 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-01 16:29:33,070 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 16:29:33,092 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 16:29:33,094 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 16:29:33,112 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-01 16:29:33,112 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-01 16:29:33,113 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-01 16:29:33,113 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 16:29:34,323 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 16:29:34,340 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 16:29:34,695 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 16:29:34,894 - pages.douyin_upload_page - INFO - ✔ 已填写标题: ETF投资 数据揭示 高回报秘密
+2025-10-01 16:29:42,485 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-01 16:31:05,313 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-01 16:31:06,555 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 16:31:11,633 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-01 16:31:11,642 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 16:31:11,665 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 16:31:11,667 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 16:31:11,686 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-01 16:31:11,686 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-01 16:31:11,686 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-01 16:31:11,686 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 16:31:12,753 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 16:31:12,765 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 16:31:13,598 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 16:31:13,799 - pages.douyin_upload_page - INFO - ✔ 已填写标题: ETF投资 数据揭示 高回报秘密
+2025-10-01 16:31:21,300 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-01 16:31:21,340 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 16:31:32,123 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 16:31:32,130 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-01 16:31:33,346 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 16:31:34,490 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-01 16:31:34,490 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 16:31:34,894 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 16:31:34,897 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 16:31:37,033 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-01 16:31:37,033 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 16:31:37,173 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 16:31:44,398 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 16:31:44,650 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 16:31:44,668 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: ETF投资 数据揭示 高回报秘密
+2025-10-01 16:31:44,668 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-01 16:31:44,674 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-01 16:31:44,700 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 揭秘ETF投资的高回报数据：过去十年标普500 ETF年化12%回报，远超主动基金。通过真实案例对比，分析ETF低成本、分散风险的优势。总结核心原理，给出实用行动指南。专业分析，冷幽默点缀，助你理性投资。#ETF投资 #金融知识 #投资策略
+2025-10-01 16:32:03,484 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 16:32:13,868 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 17:09:16,925 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-01 17:09:18,273 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 17:09:19,607 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-01 17:09:19,617 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 17:09:20,163 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 17:09:20,165 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 17:09:20,189 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-01 17:09:20,190 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-01 17:09:20,190 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-01 17:09:20,190 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 17:09:21,745 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 17:09:22,048 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 17:09:22,397 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 17:09:22,575 - pages.douyin_upload_page - INFO - ✔ 已填写标题: LOF基金 套利机会揭秘
+2025-10-01 17:09:29,445 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-01 17:09:34,481 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 17:10:05,305 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 17:10:05,315 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-01 17:10:06,521 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 17:10:07,558 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-01 17:10:07,558 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 17:10:07,808 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 17:10:07,808 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 17:10:10,177 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-01 17:10:10,177 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 17:10:10,322 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 17:10:14,498 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 17:10:14,763 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 17:10:14,785 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: LOF基金 套利机会揭秘
+2025-10-01 17:10:14,786 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-01 17:10:14,792 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-01 17:10:14,820 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: LOF基金作为上市型开放式基金，日均交易量巨大却常被投资者忽略套利潜力。本视频通过真实案例和数据冲击，揭示LOF基金的双重交易机制与套利策略，帮助高净值观众理性把握投资机会。 #金融知识 #投资技巧 #LOF基金
+2025-10-01 17:10:29,985 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 17:10:40,435 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 18:11:05,850 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-01 18:11:06,838 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 18:11:11,089 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-01 18:11:11,100 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 18:11:11,126 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 18:11:11,128 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 18:11:11,161 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-01 18:11:11,162 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-01 18:11:11,162 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-01 18:11:11,162 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 18:11:12,329 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 18:11:12,359 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 18:11:12,885 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 18:11:13,116 - pages.douyin_upload_page - INFO - ✔ 已填写标题: QDII基金 高收益秘密
+2025-10-01 18:11:19,413 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-01 18:11:24,467 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 18:11:55,271 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 18:11:55,279 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-01 18:11:56,439 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 18:11:57,872 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-01 18:11:57,872 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 18:11:57,894 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 18:11:57,894 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 18:12:00,134 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-01 18:12:00,135 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 18:12:00,275 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 18:12:02,174 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 18:12:02,466 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 18:12:02,502 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: QDII基金 高收益秘密
+2025-10-01 18:12:02,505 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-01 18:12:02,518 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-01 18:12:02,550 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 揭露QDII基金的惊人数据与案例，专业分析全球化投资逻辑，总结资产配置原理，提供理性行动指南。让高净值观众在60秒内掌握关键投资洞见。#金融知识 #投资理财 #QDII
+2025-10-01 18:12:29,721 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 18:12:41,054 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 19:10:24,655 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-01 19:10:25,916 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 19:10:26,823 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-01 19:10:26,868 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 19:10:27,960 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 19:10:27,962 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 19:10:27,985 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-01 19:10:27,986 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-01 19:10:27,986 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-01 19:10:27,986 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 19:10:29,754 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 19:10:29,838 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 19:10:30,166 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 19:10:30,368 - pages.douyin_upload_page - INFO - ✔ 已填写标题: GDP增长率的投资密码
+2025-10-01 19:10:35,571 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-01 19:10:40,631 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 19:11:11,206 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 19:11:11,230 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-01 19:11:12,192 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 19:11:13,355 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-01 19:11:13,356 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 19:11:13,653 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 19:11:13,657 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 19:11:16,004 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-01 19:11:16,008 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 19:11:16,147 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 19:11:21,282 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 19:11:21,630 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 19:11:21,672 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: GDP增长率的投资密码
+2025-10-01 19:11:21,675 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-01 19:11:21,696 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-01 19:11:21,741 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 探索GDP增长率如何驱动投资决策！从2008年金融危机案例切入，解析宏观经济指标的逻辑链条，总结预判原理，并提供实用行动指南。 #金融知识 #投资策略 #经济指标
+2025-10-01 19:11:42,226 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 19:11:53,327 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 20:07:48,657 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-01 20:07:50,073 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 20:07:51,163 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-01 20:07:51,202 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 20:07:52,266 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 20:07:52,268 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 20:07:52,292 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-01 20:07:52,293 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-01 20:07:52,293 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-01 20:07:52,293 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 20:07:56,684 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 20:07:56,711 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 20:07:57,391 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 20:07:57,596 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 通胀 偷钱 真相 案例
+2025-10-01 20:08:04,451 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-01 20:08:09,491 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 20:08:40,024 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 20:08:40,033 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-01 20:08:41,225 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 20:08:42,309 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-01 20:08:42,309 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 20:08:42,553 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 20:08:42,554 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 20:08:45,008 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-01 20:08:45,009 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 20:08:45,160 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 20:08:49,872 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 20:08:50,169 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 20:08:50,190 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 通胀 偷钱 真相 案例
+2025-10-01 20:08:50,190 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-01 20:08:50,199 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-01 20:08:50,238 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 通胀无声侵蚀你的财富？2023年数据揭示惊人真相，通过真实案例张三的储蓄缩水故事，分析央行印钞逻辑，总结货币贬值原理，并提供抗通胀投资行动指南。专业冷静的60秒洞见，帮你守护钱包。#通货膨胀 #投资策略 #财富保卫
+2025-10-01 20:09:10,518 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 20:09:21,180 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 21:08:21,820 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-01 21:08:23,119 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 21:08:27,318 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-01 21:08:27,334 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 21:08:27,363 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 21:08:27,374 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 21:08:27,409 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-01 21:08:27,412 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-01 21:08:27,415 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-01 21:08:27,415 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 21:08:28,370 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 21:08:28,550 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 21:08:28,935 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 21:08:29,148 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 通货紧缩 财富隐形杀手
+2025-10-01 21:08:36,254 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-01 21:08:41,442 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 21:09:12,534 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 21:09:12,557 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-01 21:09:13,946 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 21:09:15,668 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-01 21:09:15,669 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 21:09:15,954 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 21:09:15,958 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 21:09:18,246 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-01 21:09:18,250 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 21:09:18,392 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 21:09:22,969 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 21:09:23,263 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 21:09:23,306 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 通货紧缩 财富隐形杀手
+2025-10-01 21:09:23,309 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-01 21:09:23,330 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-01 21:09:23,374 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 当物价下跌时，小心你的财富正在缩水！本视频通过日本案例和数据逻辑，揭示通货紧缩的经济陷阱，专业分析结合冷幽默，教你如何在通缩环境中保护资产，理性投资。#通货紧缩 #投资策略 #经济知识
+2025-10-01 21:09:31,960 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 21:09:42,614 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 22:09:40,312 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-01 22:09:41,466 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 22:09:42,458 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-01 22:09:42,507 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 22:09:43,626 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 22:09:43,629 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 22:09:43,650 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-01 22:09:43,650 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-01 22:09:43,651 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-01 22:09:43,651 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 22:09:45,335 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 22:09:45,349 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 22:09:45,665 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 22:09:45,885 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 货币政策 财富隐形侵蚀者
+2025-10-01 22:09:51,299 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-01 22:09:56,354 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 22:10:27,290 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 22:10:27,314 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-01 22:10:28,555 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 22:10:29,775 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-01 22:10:29,776 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 22:10:30,023 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 22:10:30,026 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 22:10:32,471 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-01 22:10:32,474 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 22:10:32,622 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 22:10:34,664 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 22:10:34,938 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 22:10:34,973 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 货币政策 财富隐形侵蚀者
+2025-10-01 22:10:34,975 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-01 22:10:34,989 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-01 22:10:35,018 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 当央行印钞机启动，你的财富正被悄悄稀释？本视频用硬核数据与真实案例，揭秘货币政策如何影响投资，从逻辑分析到行动指南，60秒掌握关键洞见。#货币政策 #投资智慧 #财经知识
+2025-10-01 22:10:52,414 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 22:11:04,316 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 23:15:30,830 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-01 23:15:32,298 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 23:15:36,600 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-01 23:15:36,611 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 23:15:36,657 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 23:15:36,668 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 23:15:36,699 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-01 23:15:36,703 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-01 23:15:36,706 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-01 23:15:36,706 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 23:15:37,838 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 23:15:37,948 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 23:15:38,332 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 23:15:38,500 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 财政政策 投资风险预警
+2025-10-01 23:15:44,222 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-01 23:15:49,270 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 23:16:20,784 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-01 23:16:20,815 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-01 23:16:22,147 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-01 23:16:23,513 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-01 23:16:23,513 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-01 23:16:23,942 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-01 23:16:23,944 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-01 23:16:26,361 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-01 23:16:26,364 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-01 23:16:26,507 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-01 23:16:30,588 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-01 23:16:30,855 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-01 23:16:30,896 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 财政政策 投资风险预警
+2025-10-01 23:16:30,898 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-01 23:16:30,918 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-01 23:16:30,967 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 财政赤字飙升，全球债务创纪录！本视频通过真实案例剖析财政政策逻辑，总结投资原理并给出行动指南。专业分析搭配冷幽默，吸引高净值观众洞察风险与机会。#财政政策 #投资策略 #金融知识
+2025-10-01 23:16:53,964 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-01 23:17:04,586 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-02 13:13:16,705 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-02 13:13:18,437 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-02 13:13:25,951 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-02 13:13:26,040 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-02 13:13:26,068 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-02 13:13:26,072 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-02 13:13:26,092 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-02 13:13:26,092 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-02 13:13:26,092 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-02 13:13:26,092 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-02 13:13:27,099 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-02 13:13:27,108 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-02 13:13:27,447 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-02 13:13:27,667 - pages.douyin_upload_page - INFO - ✔ 已填写标题: GDP解读 悬疑数据冲击
+2025-10-02 13:13:33,081 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-02 13:13:38,115 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-02 13:14:08,564 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-02 13:14:08,574 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-02 13:14:09,641 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-02 13:14:11,225 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-02 13:14:11,225 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-02 13:14:11,475 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-02 13:14:11,476 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-02 13:14:13,854 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-02 13:14:13,854 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-02 13:14:13,997 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-02 13:14:15,885 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-02 13:14:16,177 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-02 13:14:16,202 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: GDP解读 悬疑数据冲击
+2025-10-02 13:14:16,202 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-02 13:14:16,209 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-02 13:14:16,230 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: GDP数据公布，经济晴雨表如何解读？通过对比中美日案例，揭示GDP背后的结构逻辑，带您看清投资真相。专业分析结合冷幽默，引发深度思考。#金融知识 #GDP分析 #投资洞见
+2025-10-02 13:14:46,236 - tests.test_xiaohongshu_upload - WARNING - ✘ 上传流程异常：Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("button:has-text('发布')")
+    - locator resolved to <button disabled type="button" data-v-e9a72776="" data-v-cde5b0a2="" data-v-3ef0b913-s="" class="d-button d-button-large --size-icon-large --size-text-h6 disabled d-button-with-content --color-static bold --color-bg-fill --color-text-disabled custom-button red disabled publishBtn" data-impression="{"noteTarget":{"type":"NoteTarget","value":{"noteEditSource":1,"noteType":3}},"event":{"type":"Event","value":{"targetType":{"type":"RichTargetType","value":"note_compose_target"},"action":{"type":"Normalize…>…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+      - waiting 100ms
+    58 × waiting for element to be visible, enabled and stable
+       - element is not enabled
+     - retrying click action
+       - waiting 500ms
+
+2025-10-02 13:14:46,872 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-02 14:07:44,771 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-02 14:07:45,979 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-02 14:07:46,732 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-02 14:07:46,749 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-02 14:07:47,826 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-02 14:07:47,828 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-02 14:07:47,845 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-02 14:07:47,846 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-02 14:07:47,846 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-02 14:07:47,846 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-02 14:07:51,411 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-02 14:07:51,422 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-02 14:07:51,852 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-02 14:07:52,089 - pages.douyin_upload_page - INFO - ✔ 已填写标题: CPI数据背后秘密
+2025-10-02 14:07:59,366 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-02 14:08:04,410 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-02 14:08:34,822 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-02 14:08:34,830 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-02 14:08:35,946 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-02 14:08:37,632 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-02 14:08:37,632 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-02 14:08:37,877 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-02 14:08:37,877 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-02 14:08:40,322 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-02 14:08:40,323 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-02 14:08:40,463 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-02 14:08:43,039 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-02 14:08:43,311 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-02 14:08:43,326 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: CPI数据背后秘密
+2025-10-02 14:08:43,328 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-02 14:08:43,334 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-02 14:08:43,357 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: CPI数据公布，5%涨幅震惊市场！但核心CPI仅2%，差距何在？本视频分析食品能源价格波动，回顾2008年案例，解读CPI对投资的影响，并提供抗通胀资产投资建议。专业分析，带冷幽默，助你把握投资先机。#CPI #投资策略 #金融分析
+2025-10-02 14:09:13,368 - tests.test_xiaohongshu_upload - WARNING - ✘ 上传流程异常：Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("button:has-text('发布')")
+    - locator resolved to <button disabled type="button" data-v-e9a72776="" data-v-cde5b0a2="" data-v-3ef0b913-s="" data-eaglet-imp="true" class="d-button d-button-large --size-icon-large --size-text-h6 disabled d-button-with-content --color-static bold --color-bg-fill --color-text-disabled custom-button red disabled publishBtn" data-impression="{"noteTarget":{"type":"NoteTarget","value":{"noteEditSource":1,"noteType":3}},"event":{"type":"Event","value":{"targetType":{"type":"RichTargetType","value":"note_compose_target"},"act…>…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+      - waiting 100ms
+    58 × waiting for element to be visible, enabled and stable
+       - element is not enabled
+     - retrying click action
+       - waiting 500ms
+
+2025-10-02 14:09:13,973 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-03 19:53:55,397 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-03 19:53:56,917 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-03 19:54:00,832 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-03 19:54:00,845 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-03 19:54:00,878 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-03 19:54:00,890 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-03 19:54:00,924 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-03 19:54:00,927 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-03 19:54:00,930 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-03 19:54:00,930 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-03 19:54:02,084 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-03 19:54:02,103 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-03 19:54:02,494 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-03 19:54:02,682 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 以太坊技术 改变未来生活
+2025-10-03 19:54:07,687 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-03 19:54:12,741 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-03 19:54:43,361 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-03 19:54:43,399 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-03 19:54:44,536 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-03 19:54:46,051 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-03 19:54:46,051 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-03 19:54:46,267 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-03 19:54:46,269 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-03 19:54:48,667 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-03 19:54:48,670 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-03 19:54:48,814 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-03 19:54:50,479 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-03 19:54:50,841 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-03 19:54:50,873 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 以太坊技术 改变未来生活
+2025-10-03 19:54:50,876 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-03 19:54:50,892 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-03 19:54:50,923 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 以太坊技术正在颠覆传统系统，想象智能合约如何自动化交易并赋予用户控制权。点开视频，探索如何拥抱区块链革命，开启数字新篇章！#以太坊 #区块链 #人生智慧
+2025-10-03 19:55:13,392 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-03 19:55:24,243 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-03 21:58:54,066 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-03 21:58:55,259 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-03 21:58:58,859 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-03 21:58:58,878 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-03 21:58:58,907 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-03 21:58:58,910 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-03 21:58:58,931 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-03 21:58:58,932 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-03 21:58:58,932 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-03 21:58:58,932 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-03 21:59:00,310 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-03 21:59:00,370 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-03 21:59:00,679 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-03 21:59:00,914 - pages.douyin_upload_page - INFO - ✔ 已填写标题: PPI飙升 通胀预警
+2025-10-03 21:59:04,085 - tests.test_douyin_upload - WARNING - ✘ 上传流程异常：Locator.type: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("div[contenteditable='true'][data-placeholder='添加作品简介']")
+    - locator resolved to <div data-zone-id="0" spellcheck="false" contenteditable="true" data-zone-container="*" data-slate-editor="true" data-placeholder="添加作品简介" class="zone-container editor-kit-container editor editor-comp-publish notranslate chrome window chrome88"></div>
+  - elementHandle.type("PPI数据创十年新高，汽车制造业成本激增。本视频通过专业分析，揭示PPI如何预示通胀，并提供投资行动指南。冷静解读，助你把握经济脉搏。 #金融硬核 #投资策略 #PPI洞见")
+
+2025-10-03 21:59:05,132 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-03 21:59:05,542 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-03 21:59:06,793 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-03 22:07:26,675 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-03 22:07:27,936 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-03 22:07:31,594 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-03 22:07:31,601 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-03 22:07:31,630 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-03 22:07:31,631 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-03 22:07:31,651 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-03 22:07:31,652 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-03 22:07:31,652 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-03 22:07:31,652 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-03 22:07:32,876 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-03 22:07:32,933 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-03 22:07:33,255 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-03 22:07:33,466 - pages.douyin_upload_page - INFO - ✔ 已填写标题: PMI密码 经济先知预警
+2025-10-03 22:07:39,382 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-03 22:07:44,421 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-03 22:08:15,155 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-03 22:08:15,164 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-03 22:08:16,227 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-03 22:08:17,127 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-03 22:08:17,127 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-03 22:08:17,389 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-03 22:08:17,389 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-03 22:08:19,748 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-03 22:08:19,749 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-03 22:08:19,905 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-03 22:08:20,748 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-03 22:08:21,037 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-03 22:08:21,059 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: PMI密码 经济先知预警
+2025-10-03 22:08:21,060 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-03 22:08:21,065 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-03 22:08:21,086 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: PMI指数不仅是枯燥数字，更是投资导航仪。本视频以2008年危机为例，揭示PMI如何预判市场转折，并提供实用策略。专业分析结合冷幽默，助你把握先机。#金融知识 #投资技巧 #PMI指数
+2025-10-03 22:08:26,507 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-03 22:08:36,924 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-04 20:46:48,988 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-04 20:46:50,445 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-04 20:46:51,509 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-04 20:46:51,527 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-04 20:46:54,697 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-04 20:46:54,706 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-04 20:46:54,736 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-04 20:46:54,738 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-04 20:46:54,740 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-04 20:46:54,741 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-04 20:46:59,220 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-04 20:46:59,284 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-04 20:46:59,920 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-04 20:47:00,015 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 区块链 重塑信任 人生智慧
+2025-10-04 20:47:05,035 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-04 20:47:10,083 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-04 20:47:40,799 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-04 20:47:40,827 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-04 20:47:41,960 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-04 20:47:44,344 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-04 20:47:44,345 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-04 20:47:46,428 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-04 20:47:46,431 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-04 20:47:46,652 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-04 20:47:46,654 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-04 20:47:46,793 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-04 20:48:01,504 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-04 20:48:01,778 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-04 20:48:01,820 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 区块链 重塑信任 人生智慧
+2025-10-04 20:48:01,822 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-04 20:48:01,842 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-04 20:48:01,885 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 在数字时代，信任如何重建？区块链技术不仅是科技革命，更是生活哲学。通过日常场景揭示信任底层逻辑，让区块链思维守护你的数字生活。#区块链 #人生哲理 #数字信任
+2025-10-04 20:48:19,729 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-04 20:48:30,310 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-06 00:01:30,166 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-06 00:01:31,657 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-06 00:01:35,614 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-06 00:01:35,626 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-06 00:01:35,647 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-06 00:01:35,650 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-06 00:01:35,672 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-06 00:01:35,672 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-06 00:01:35,673 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-06 00:01:35,673 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-06 00:01:36,895 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-06 00:01:36,930 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-06 00:01:37,228 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-06 00:01:37,424 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 数字货币投资 陷阱与机遇
+2025-10-06 00:01:43,052 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-06 00:01:48,098 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-06 00:02:20,054 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-06 00:02:20,065 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-06 00:02:21,099 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-06 00:02:22,340 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-06 00:02:22,340 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-06 00:02:22,686 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-06 00:02:22,687 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-06 00:02:24,358 - tests.test_xiaohongshu_upload - WARNING - ✘ 上传流程异常：Page.set_input_files: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("input[type='file']")
+
+2025-10-06 00:02:24,700 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-06 00:19:49,390 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-06 00:19:50,598 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-06 00:19:51,803 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-06 00:19:52,851 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-06 00:36:39,696 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-06 00:36:40,886 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-06 00:36:45,514 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-06 00:36:45,526 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-06 00:36:45,572 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-06 00:36:45,580 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-06 00:36:45,610 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-06 00:36:45,612 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-06 00:36:45,614 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-06 00:36:45,614 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-06 00:36:46,791 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-06 00:36:46,811 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-06 00:36:47,127 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-06 00:36:47,334 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 数字货币投资 心态致胜法则
+2025-10-06 00:36:53,566 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-06 00:36:58,677 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-06 00:37:29,307 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-06 00:37:29,335 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-06 00:37:30,442 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-06 00:37:32,582 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-06 00:37:32,582 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-06 00:37:32,837 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-06 00:37:32,840 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-06 00:37:35,215 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-06 00:37:35,218 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-06 00:37:35,357 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-06 00:37:39,835 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-06 00:37:40,076 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-06 00:37:40,119 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 数字货币投资 心态致胜法则
+2025-10-06 00:37:40,122 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-06 00:37:40,144 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-06 00:37:40,189 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 当数字货币市场波动时，你的心态如何应对？本视频揭示投资背后的生活智慧，从焦虑到平静，教你用内心力量赢市场。点开视频，探索投资与人生的深层联系，让每一步都走得坚定。#数字货币 #投资哲理 #心态管理
+2025-10-06 00:37:50,337 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-06 00:38:00,912 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-06 18:29:19,219 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-06 18:29:20,640 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-06 18:29:23,686 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-06 18:29:23,693 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-06 18:29:23,723 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-06 18:29:23,727 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-06 18:29:23,746 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-06 18:29:23,746 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-06 18:29:23,747 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-06 18:29:23,747 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-06 18:29:25,116 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-06 18:29:25,196 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-06 18:29:25,525 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-06 18:29:25,718 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 定投回调 策略揭秘
+2025-10-06 18:29:31,540 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-06 18:29:36,546 - tests.test_douyin_upload - WARNING - ✘ 上传流程异常：Locator.click: Target page, context or browser has been closed
+2025-10-06 18:29:37,258 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-06 18:29:37,344 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-06 18:29:38,260 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-06 18:45:01,318 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-06 18:45:02,639 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-06 18:45:06,249 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-06 18:45:06,256 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-06 18:45:06,286 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-06 18:45:06,300 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-06 18:45:06,328 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-06 18:45:06,332 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-06 18:45:06,334 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-06 18:45:06,334 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-06 18:45:07,507 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-06 18:45:07,642 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-06 18:45:08,001 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-06 18:45:08,192 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 定投回调 策略揭秘
+2025-10-06 18:45:13,999 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-06 18:45:19,053 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-06 18:45:49,651 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-06 18:45:49,679 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-06 18:45:50,897 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-06 18:45:52,315 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-06 18:45:52,316 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-06 18:45:52,562 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-06 18:45:52,564 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-06 18:45:54,964 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-06 18:45:54,966 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-06 18:45:55,113 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-06 18:45:56,015 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-06 18:45:56,351 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-06 18:45:56,424 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 定投回调 策略揭秘
+2025-10-06 18:45:56,427 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-06 18:45:56,439 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-06 18:45:56,473 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 揭秘90%投资者在市场回调时犯的错！通过去年科技股案例，展示如何用增强型定投策略在市场下跌时放大收益。专业逻辑分析，实用行动指南，助你投资更聪明。#投资技巧 #定投策略 #金融知识
+2025-10-06 18:46:15,375 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-06 18:46:27,372 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-06 19:10:51,065 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-06 19:10:52,636 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-06 19:10:56,448 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-06 19:10:56,461 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-06 19:10:56,491 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-06 19:10:56,494 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-06 19:10:56,520 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-06 19:10:56,521 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-06 19:10:56,521 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-06 19:10:56,521 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-06 19:10:58,399 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-06 19:10:58,547 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-06 19:10:58,853 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-06 19:10:59,092 - pages.douyin_upload_page - INFO - ✔ 已填写标题: NFT 投资 真相 与 策略
+2025-10-06 19:11:05,025 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-06 19:11:10,063 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-06 19:11:40,533 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-06 19:11:40,542 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-06 19:11:41,668 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-06 19:11:43,021 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-06 19:11:43,021 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-06 19:11:43,041 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-06 19:11:43,042 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-06 19:11:45,468 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-06 19:11:45,468 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-06 19:11:45,626 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-06 19:11:46,414 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-06 19:11:46,740 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-06 19:11:46,768 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: NFT 投资 真相 与 策略
+2025-10-06 19:11:46,769 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-06 19:11:46,775 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-06 19:11:46,798 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: NFT市场看似火爆，但90%项目最终归零。本视频通过CryptoPunks案例，剖析价值逻辑，总结投资原则，并提供理性行动指南。专业洞见，助你避开数字资产陷阱。#NFT投资 #理财知识
+2025-10-06 19:12:01,419 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-06 19:12:11,830 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-07 10:30:25,001 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-07 10:30:26,467 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-07 10:30:30,280 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-07 10:30:30,288 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-07 10:30:30,318 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-07 10:30:30,332 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-07 10:30:30,363 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-07 10:30:30,367 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-07 10:30:30,370 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-07 10:30:30,371 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-07 10:30:31,343 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-07 10:30:31,460 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-07 10:30:31,833 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-07 10:30:32,061 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 消费者信心指数：投资逆势布局指南
+2025-10-07 10:30:37,329 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-07 10:30:42,386 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-07 10:31:12,884 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-07 10:31:12,893 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-07 10:31:14,115 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-07 10:31:14,881 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-07 10:31:14,882 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-07 10:31:15,174 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-07 10:31:15,174 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-07 10:31:17,446 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-07 10:31:17,449 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-07 10:31:17,638 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-07 10:31:18,380 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-07 10:31:18,669 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-07 10:31:18,707 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 消费者信心指数：投资逆势布局指南
+2025-10-07 10:31:18,710 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-07 10:31:18,725 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-07 10:31:18,759 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 本视频深入解析消费者信心指数如何作为经济领先指标，通过2020年疫情案例和数据，揭示逆向投资逻辑。帮助投资者在市场恐慌中保持冷静，把握底部机会，实现数据驱动决策。
+2025-10-07 10:31:26,294 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-07 10:31:36,888 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-08 11:15:18,024 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-08 11:15:19,697 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-08 11:15:24,487 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-08 11:15:24,498 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-08 11:15:24,538 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-08 11:15:24,556 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-08 11:15:24,594 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-08 11:15:24,595 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-08 11:15:24,600 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-08 11:15:24,600 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-08 11:15:25,686 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-08 11:15:25,705 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-08 11:15:26,188 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-08 11:15:26,473 - pages.douyin_upload_page - INFO - ✔ 已填写标题: 揭秘羊群效应：避免投资盲从陷阱
+2025-10-08 11:15:31,544 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-08 11:15:36,605 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-08 11:16:07,243 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-08 11:16:07,278 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-08 11:16:08,617 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-08 11:16:09,715 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-08 11:16:09,716 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-08 11:16:09,977 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-08 11:16:09,979 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-08 11:16:12,260 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-08 11:16:12,263 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-08 11:16:12,407 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-08 11:16:16,977 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-08 11:16:17,335 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-08 11:16:17,381 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: 揭秘羊群效应：避免投资盲从陷阱
+2025-10-08 11:16:17,385 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-08 11:16:17,409 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-08 11:16:17,453 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 本视频通过真实数据和案例揭示羊群效应在投资中的危害，分析其底层逻辑，提供独立思考原则和实用行动指南，帮助高净值观众规避风险，实现理性决策。
+2025-10-08 11:16:35,285 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-08 11:16:46,921 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-08 11:46:38,935 - tests.test_douyin_upload - INFO - 开始执行视频上传测试
+2025-10-08 11:46:40,341 - tests.test_douyin_upload - INFO - 已成功加载登录状态文件。
+2025-10-08 11:46:44,386 - pages.douyin_upload_page - INFO - 成功导航到上传页面: https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web
+2025-10-08 11:46:44,395 - pages.douyin_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-08 11:46:44,430 - tests.test_douyin_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-08 11:46:44,442 - pages.base_page - INFO - 正在上传视频：C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-08 11:46:44,471 - pages.base_page - INFO - ✔ 视频文件已设置成功
+2025-10-08 11:46:44,473 - tests.test_douyin_upload - INFO - ✔ 视频上传已触发
+2025-10-08 11:46:44,475 - pages.douyin_upload_page - INFO - 正在上传封面图...
+2025-10-08 11:46:44,475 - pages.douyin_upload_page - INFO - 正在上传封面: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-08 11:46:45,675 - pages.douyin_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-08 11:46:45,693 - pages.douyin_upload_page - INFO - ✔ 封面上传成功
+2025-10-08 11:46:46,131 - pages.douyin_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-08 11:46:46,386 - pages.douyin_upload_page - INFO - ✔ 已填写标题: GDP增长 投资策略
+2025-10-08 11:46:53,330 - pages.douyin_upload_page - INFO - ✔ 已填写描述
+2025-10-08 11:46:58,384 - pages.douyin_upload_page - INFO - ✔ 点击发布完成
+2025-10-08 11:47:29,169 - tests.test_douyin_upload - INFO - 浏览器已关闭，测试结束。
+2025-10-08 11:47:29,195 - tests.test_xiaohongshu_upload - INFO - 开始执行小红书视频上传测试
+2025-10-08 11:47:30,506 - tests.test_xiaohongshu_upload - INFO - 已成功加载登录状态文件。
+2025-10-08 11:47:31,905 - pages.xiaohongshu_upload_page - INFO - 成功导航到上传页面: https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video
+2025-10-08 11:47:31,906 - pages.xiaohongshu_upload_page - INFO - 浏览器窗口已设置为最大化视口。
+2025-10-08 11:47:31,933 - tests.test_xiaohongshu_upload - INFO - ✔ 自动登录成功，页面已跳转到发布视频页！
+2025-10-08 11:47:31,937 - pages.xiaohongshu_upload_page - INFO - 正在上传视频: C:\Users\rick1\Desktop\app\re-plan-api\media\output\video.mp4
+2025-10-08 11:47:34,271 - pages.xiaohongshu_upload_page - INFO - ✔ 视频上传已触发
+2025-10-08 11:47:34,274 - pages.xiaohongshu_upload_page - INFO - 正在上传封面图: C:\Users\rick1\Desktop\app\re-plan-api\media\output\image.jpg
+2025-10-08 11:47:34,408 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击选择封面按钮
+2025-10-08 11:47:36,632 - pages.xiaohongshu_upload_page - INFO - ✔ 封面上传成功
+2025-10-08 11:47:36,917 - pages.xiaohongshu_upload_page - INFO - ✔ 已点击封面完成按钮
+2025-10-08 11:47:36,956 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写标题: GDP增长 投资策略
+2025-10-08 11:47:36,958 - pages.xiaohongshu_upload_page - INFO - 🔹 查找描述编辑器...
+2025-10-08 11:47:36,969 - pages.xiaohongshu_upload_page - INFO - ✔ 描述编辑器已找到
+2025-10-08 11:47:37,001 - pages.xiaohongshu_upload_page - INFO - ✔ 已填写描述: 2023年中国GDP增长5.2%，但你的投资回报跑赢了吗？本视频以真实案例解析GDP增长背后的投资逻辑，从数据钩子到行动指南，60秒干货分享，帮助高净值观众把握经济周期中的机会。#GDP增长 #投资策略 #财经知识
+2025-10-08 11:47:52,762 - pages.xiaohongshu_upload_page - INFO - ✔ 点击发布完成
+2025-10-08 11:48:04,284 - tests.test_xiaohongshu_upload - INFO - 浏览器已关闭，测试结束。
